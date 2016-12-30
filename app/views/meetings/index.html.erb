@@ -1,3 +1,9 @@
+<div ng-app="app">
+  <div ng-controller="meetingsCtrl" ng-init="setup()">
+    {{ message }}
+  </div>
+</div>
+
 <h1><a href="/meetings">All meetings</a></h1>
 <a href="/meetings/new">Create new meeting</a>
 <% @meetings.each do |meeting| %>
